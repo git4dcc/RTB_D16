@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name RTB_Parts)(type Legacy)(uri C:/RnD/NMRA/_KiCad/SamacSys/SamacSys_Parts.lib)(options "")(descr ""))
+)
