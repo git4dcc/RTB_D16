@@ -9,7 +9,7 @@ Date "2023-10-24"
 Rev "4"
 Comp "Frank Schumacher"
 Comment1 "Lok Decoder NEM651"
-Comment2 ""
+Comment2 "D16.4"
 Comment3 ""
 Comment4 ""
 $EndDescr
