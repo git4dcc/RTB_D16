@@ -474,4 +474,7 @@ Text Notes 6400 1250 0    50   ~ 0
 LEDs
 Text Notes 1000 1250 0    50   ~ 0
 CPU
+NoConn ~ 3500 2700
+NoConn ~ 3500 2800
+NoConn ~ 2300 2300
 $EndSCHEMATC
