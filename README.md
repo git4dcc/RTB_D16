@@ -33,3 +33,14 @@ The decoder has the following features,
 - Inrush limiter: TPS22810
 
 [Schematic](doc/D16_schematic.pdf) | [Layout](doc/D16_layout.pdf)
+
+# Firmware
+Filename structure: { **pcb** }{ **code** }{ **version** }.hex
+
+Example: **D16F0001**.hex
+
+|   | Description |
+| --- | --- |
+| **pcb** | Name of matching hardware (**D16**) |
+| **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
+| **version** | Release version (**####**) |
