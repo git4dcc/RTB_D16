@@ -10,8 +10,8 @@ The D16 decoder is a mobile decoder with NEM 651 connector. The decoder is desig
 The decoder has the following features,
 - NEM651 connector
 - **DCC**
-  - DCCA automatic logon
-  - DCCR protocol extension
+  - DCC-A automatic logon
+  - DCC-R protocol extension
 - **Railcom**
   - Channel 1/2
   - POM, xPOM
