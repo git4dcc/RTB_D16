@@ -11,8 +11,6 @@ The D16 decoder is a mobile decoder with NEM 651 connector. The decoder is desig
 - User Guide - DE
 - [User Guide - EN](https://rtb4dcc.de/rtb_decoder_reference_en/)
 
-https://rtb4dcc.de/rtb_decoder_reference_en
-
 </details>
 
 <img src="https://rtb4dcc.de/wp-content/uploads/2024/01/D16_1.png" width=500>
