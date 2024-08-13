@@ -5,7 +5,17 @@
 
 The D16 decoder is a mobile decoder with NEM 651 connector. The decoder is designed to integrate into the [RTB](https://rtb4dcc.de/concept/) digital control infrastructure.
 
-> <img src="https://rtb4dcc.de/wp-content/uploads/2024/01/D16_1.png" width=400>
+<details>
+<summary>User Guides</summary>
+
+- User Guide - DE
+- [User Guide - EN](https://rtb4dcc.de/rtb_decoder_reference_en/)
+
+https://rtb4dcc.de/rtb_decoder_reference_en
+
+</details>
+
+<img src="https://rtb4dcc.de/wp-content/uploads/2024/01/D16_1.png" width=500>
 <br>
 
 The decoder has the following features,
@@ -24,18 +34,29 @@ The decoder has the following features,
 - CPU heartbeat LED
 - fast firmware update within seconds on main tracks via DCCR
 
-[more](https://rtb4dcc.de/hardware/decoder/d16/)
+# Hardware
+The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0402 parts. Reflow soldering is almost mandatory whereas handsoldering near to impossible.
 
-# PCB
 <img src="https://rtb4dcc.de/wp-content/uploads/2023/09/D16_top.png" width=310>   <img src="https://rtb4dcc.de/wp-content/uploads/2023/09/D16_btm.png" width=400>
+
+## PCB
 - 6-layer PCB, FR4, 0.8mm
 - CPU: AVR64DA32
 - Motor bridge: DRV8231
 - Inrush limiter: TPS22810
 
-[Schematic](doc/D16_schematic.pdf) | [Layout](doc/D16_layout.pdf)
+## Kicad
+[Schematic](doc/D16_schematic.pdf) | [Layout](doc/D16_layout.pdf) | [Gerber](gerber)
 
-# Firmware
+<details>
+<summary>Dependency</summary>
+<br>
+
+:yellow_circle: Requires my Kicad project library [RTB_SamacSys](https://github.com/git4dcc/RTB_SamacSys) in the same directory tree.
+
+</details>
+
+## Firmware
 Filename structure: { **pcb** }{ **code** }{ **version** }.hex
 
 Example: **D16F0001**.hex
@@ -45,3 +66,10 @@ Example: **D16F0001**.hex
 | **pcb** | Name of matching hardware (**D16**) |
 | **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
 | **version** | Release version (**####**) |
+
+[Firmware files](firmware)
+
+# Images
+<img src=https://rtb4dcc.de/wp-content/uploads/2024/01/D16_2.png width=800>
+
+This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
