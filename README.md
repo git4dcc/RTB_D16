@@ -21,6 +21,7 @@ The decoder has the following features,
 - **DCC**
   - DCC-A automatic logon
   - DCC-R protocol extension
+  - Service Mode Programming
 - **Railcom**
   - Channel 1/2
   - POM, xPOM
@@ -30,7 +31,7 @@ The decoder has the following features,
 - max track voltage 18V
 - external buffer caps possible
 - CPU heartbeat LED
-- fast firmware update within seconds on main tracks via DCCR
+- fast firmware update within seconds on main tracks via DCC-R
 
 # Hardware
 The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0402 parts. Reflow soldering is almost mandatory whereas handsoldering near to impossible.
@@ -38,7 +39,7 @@ The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0402 part
 <img src="https://rtb4dcc.de/wp-content/uploads/2023/09/D16_top.png" width=310>   <img src="https://rtb4dcc.de/wp-content/uploads/2023/09/D16_btm.png" width=400>
 
 ## PCB
-- 6-layer PCB, FR4, 0.8mm
+- 6-layer PCB, FR4, 17x11x0.8mm (single sided)
 - CPU: AVR64DA32
 - Motor bridge: DRV8231
 - Inrush limiter: TPS22810
