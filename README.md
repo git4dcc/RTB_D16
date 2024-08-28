@@ -71,4 +71,8 @@ Example: **D16F0001**.hex
 # Images
 <img src=https://rtb4dcc.de/wp-content/uploads/2024/01/D16_2.png width=800>
 
+# YouTube
+Some short videos to see the D16 decoder in action.<br><br>
+[<img src="https://img.youtube.com/vi/xgu4DMY3AJU/0.jpg" width=260>](https://youtu.be/xgu4DMY3AJU)
+
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
