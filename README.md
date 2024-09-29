@@ -73,7 +73,7 @@ Example: **D16F0001**.hex
 [Firmware files](firmware)
 
 # Images
-<img src=https://rtb4dcc.de/wp-content/uploads/2024/01/D16_2.png width=800>
+<img src=https://rtb4dcc.de/wp-content/uploads/2024/09/D16_con.png width=400>
 
 # YouTube
 Some short videos to see the D16 decoder in action.<br><br>
