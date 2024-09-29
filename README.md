@@ -13,7 +13,7 @@ The D16 decoder is a mobile decoder with NEM 651 connector. The decoder is desig
 
 </details>
 
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/01/D16_1.png" width=500>
+<img src="https://rtb4dcc.de/wp-content/uploads/2024/09/D16_1.png" width=500>
 <br>
 
 The decoder has the following features,
@@ -26,23 +26,27 @@ The decoder has the following features,
   - Channel 1/2
   - POM, xPOM
   - DYN: Speed, QoS, Track-Voltage, Motor-Current, Temp, Distance travelled
-- Inrush limited
-- motor current limited to 500mA (short circuit protected)
-- max track voltage 18V
-- external buffer caps possible
-- CPU heartbeat LED
-- fast firmware update within seconds on main tracks via DCC-R
+- Single sided
+- Dimension: 17 x 11 mm
+- 7-18V track voltage
+- heartbeat LED
+- adjustable max motor current (default 300mA)
+- over temp protection
+- Function output: LV/LR (dimmable headlights, 1.4kHz) limited to 250mA each
+- Function output: AUX1/AUX2/AUX3 logic level (solder pads)
+- optional external buffer capacitor
+- <10mA idle power consumption
+
 
 # Hardware
 The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0402 parts. Reflow soldering is almost mandatory whereas handsoldering near to impossible.
 
-<img src="https://rtb4dcc.de/wp-content/uploads/2023/09/D16_top.png" width=310>   <img src="https://rtb4dcc.de/wp-content/uploads/2023/09/D16_btm.png" width=400>
+<img src="https://rtb4dcc.de/wp-content/uploads/2024/09/D16_top.png" width=400>   <img src="https://rtb4dcc.de/wp-content/uploads/2024/09/D16_btm.png" width=400>
 
 ## PCB
-- 6-layer PCB, FR4, 17x11x0.8mm (single sided)
+- 6-layer PCB, FR4, 17 x 11 x 0.8mm (single sided)
 - CPU: AVR64DA32
 - Motor bridge: DRV8231
-- Inrush limiter: TPS22810
 
 ## Kicad
 [Schematic](doc/D16_schematic.pdf) | [Layout](doc/D16_layout.pdf) | [Gerber](gerber)
