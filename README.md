@@ -13,7 +13,7 @@ The D16 decoder is a mobile decoder with NEM 651 connector. The decoder is desig
 
 </details>
 
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/09/D16_1.png" width=500>
+<img src="supplemental/images/D16_main.jpg" width=800>
 <br>
 
 The decoder has the following features,
@@ -41,7 +41,7 @@ The decoder has the following features,
 # Hardware
 The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0402 parts. Reflow soldering is almost mandatory whereas handsoldering near to impossible.
 
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/09/D16_top.png" width=400>   <img src="https://rtb4dcc.de/wp-content/uploads/2024/09/D16_btm.png" width=400>
+<img src="supplemental/images/D16_top.jpg" width=400>   <img src="supplemental/images/D16_btm.jpg" width=400>
 
 ## PCB
 - 6-layer PCB, FR4, 17 x 11 x 0.8mm (single sided)
@@ -73,7 +73,12 @@ Example: **D16F0001**.hex
 [Firmware files](firmware)
 
 # Images
-<img src=https://rtb4dcc.de/wp-content/uploads/2024/09/D16_con.png width=400>
+| top | bottom |
+| --- | --- |
+| <img src="supplemental/images/D16_top_connect.jpg" width=330> | <img src="supplemental/images/D16_btm_connect.jpg" width=600> |
+
+
+
 
 # YouTube
 Some short videos to see the D16 decoder in action.<br><br>
