@@ -25,12 +25,13 @@ The decoder has the following features,
 - **Railcom**
   - Channel 1/2
   - POM, xPOM
-  - DYN: Speed, QoS, Track-Voltage, Motor-Current, Temp, Distance travelled
+  - DYN: Speed, QoS, Track-voltage, Motor-current, AUX-current, Temp, Distance travelled
 - Single sided
 - Dimension: 17 x 11 mm
 - 7-28V track voltage
 - heartbeat LED
 - adjustable max motor current (default 300mA)
+- adjustable max AUX current (default 500mA)
 - over temp protection
 - Function output: LV/LR (dimmable headlights, 1.4kHz) limited to 250mA each
 - Function output: AUX1/AUX2/AUX3 logic level (solder pads)
