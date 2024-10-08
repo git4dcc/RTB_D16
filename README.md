@@ -84,5 +84,7 @@ Example: **D16F0001**.hex
 # YouTube
 Some short videos to see the D16 decoder in action.<br><br>
 [<img src="https://img.youtube.com/vi/xgu4DMY3AJU/0.jpg" width=260>](https://youtu.be/xgu4DMY3AJU)
+[<img src="https://img.youtube.com/vi/aH7pGpX5ZGo/0.jpg" width=260>](https://youtu.be/aH7pGpX5ZGo)
+[<img src="https://img.youtube.com/vi/Ebl8b5DK1Gw/0.jpg" width=260>](https://youtu.be/Ebl8b5DK1Gw)
 
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
