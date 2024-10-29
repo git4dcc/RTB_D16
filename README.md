@@ -13,7 +13,7 @@ The D16 decoder is a mobile decoder with NEM 651 connector. The decoder is desig
 
 </details>
 
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/09/D16_1.png" width=500>
+<img src="supplemental/images/D16_main.jpg" width=800>
 <br>
 
 The decoder has the following features,
@@ -25,12 +25,13 @@ The decoder has the following features,
 - **Railcom**
   - Channel 1/2
   - POM, xPOM
-  - DYN: Speed, QoS, Track-Voltage, Motor-Current, Temp, Distance travelled
+  - DYN: Speed, QoS, Track-voltage, Motor-current, AUX-current, Temp, Distance travelled
 - Single sided
 - Dimension: 17 x 11 mm
 - 7-28V track voltage
 - heartbeat LED
 - adjustable max motor current (default 300mA)
+- adjustable max AUX current (default 500mA)
 - over temp protection
 - Function output: LV/LR (dimmable headlights, 1.4kHz) limited to 250mA each
 - Function output: AUX1/AUX2/AUX3 logic level (solder pads)
@@ -41,7 +42,7 @@ The decoder has the following features,
 # Hardware
 The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0402 parts. Reflow soldering is almost mandatory whereas handsoldering near to impossible.
 
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/09/D16_top.png" width=400>   <img src="https://rtb4dcc.de/wp-content/uploads/2024/09/D16_btm.png" width=400>
+<img src="supplemental/images/D16_top.jpg" width=400>   <img src="supplemental/images/D16_btm.jpg" width=400>
 
 ## PCB
 - 6-layer PCB, FR4, 17 x 11 x 0.8mm (single sided)
@@ -73,10 +74,17 @@ Example: **D16F0001**.hex
 [Firmware files](firmware)
 
 # Images
-<img src=https://rtb4dcc.de/wp-content/uploads/2024/09/D16_con.png width=400>
+| top | bottom |
+| --- | --- |
+| <img src="supplemental/images/D16_top_connect.jpg" width=330> | <img src="supplemental/images/D16_btm_connect.jpg" width=600> |
+
+
+
 
 # YouTube
 Some short videos to see the D16 decoder in action.<br><br>
 [<img src="https://img.youtube.com/vi/xgu4DMY3AJU/0.jpg" width=260>](https://youtu.be/xgu4DMY3AJU)
+[<img src="https://img.youtube.com/vi/aH7pGpX5ZGo/0.jpg" width=260>](https://youtu.be/aH7pGpX5ZGo)
+[<img src="https://img.youtube.com/vi/Ebl8b5DK1Gw/0.jpg" width=260>](https://youtu.be/Ebl8b5DK1Gw)
 
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
