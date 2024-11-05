@@ -37,6 +37,7 @@ The decoder has the following features,
 - Function output: AUX1/AUX2/AUX3 logic level (solder pads)
 - optional external buffer capacitor
 - <10mA idle power consumption
+- Firmware update over main tracks via DCC-R protocol
 
 
 # Hardware
