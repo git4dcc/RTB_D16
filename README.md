@@ -28,7 +28,7 @@ The decoder has the following features,
   - DYN: Speed, QoS, Track-voltage, Motor-current, AUX-current, Temp, Distance travelled
 - Single sided
 - Dimension: 17 x 11 mm
-- 7-28V track voltage
+- 7-20V track voltage
 - heartbeat LED
 - adjustable max motor current (default 300mA)
 - adjustable max AUX current (default 500mA)
