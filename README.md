@@ -9,6 +9,7 @@ The D16 decoder is a single sided mobile decoder with NEM 651 connector. The dec
 <summary>See also</summary>
 
 - [RTB_D20](https://github.com/git4dcc/RTB_D20)
+- [RTB_D21](https://github.com/git4dcc/RTB_D21)
 
 </details>
 
