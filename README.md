@@ -25,7 +25,7 @@ The D16 decoder is a single sided mobile decoder with NEM 651 connector. The dec
 <br>
 
 The decoder has the following features,
-- NEM651 connector
+- **NEM651** connector
 - **DCC**
   - DCC-A automatic logon
   - DCC-R protocol extension
@@ -49,7 +49,7 @@ The decoder has the following features,
 
 
 # Hardware
-The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0402 parts. Reflow soldering is almost mandatory whereas handsoldering near to impossible.
+The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0402 parts. Reflow soldering is recommended, handsoldering will be difficult.
 
 <img src="supplemental/images/D16_top.jpg" width=400>   <img src="supplemental/images/D16_btm.jpg" width=400>
 
