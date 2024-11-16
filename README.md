@@ -41,9 +41,9 @@ The decoder has the following features,
 - adjustable max motor current (default 300mA)
 - adjustable max AUX current (default 500mA)
 - over temp protection
-- Function output: LV/LR (dimmable headlights, 1.4kHz) limited to 250mA each
+- Function output: LV/LR (dimmable, 1.4kHz) open drain
 - Function output: AUX1/AUX2/AUX3 logic level (solder pads)
-- optional external buffer capacitor
+- optional external buffer capacitor (max. 1500uF)
 - <10mA idle power consumption
 - Firmware update over main tracks via DCC-R protocol
 
