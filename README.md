@@ -57,6 +57,7 @@ The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0402 part
 - 6-layer PCB, FR4, 17 x 11 x 0.8mm (single sided)
 - CPU: AVR64DA32
 - Motor bridge: DRV8231
+- Connector: NEM 651
 
 ## Kicad
 [Schematic](doc/D16_schematic.pdf) | [Layout](doc/D16_layout.pdf) | [Gerber](gerber)
