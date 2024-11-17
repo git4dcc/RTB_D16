@@ -3,7 +3,7 @@
 [![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-The [D16](https://rtb4dcc.de/hardware/decoder/d16/) decoder is a single sided mobile decoder with NEM 651 connector. The decoder is designed to integrate into the [RTB](https://rtb4dcc.de/concept/) digital control infrastructure.
+The [D16](https://rtb4dcc.de/hardware/decoder/d16/) decoder is a single sided mobile decoder with NEM-651 connector. The decoder is designed to integrate into the [RTB](https://rtb4dcc.de/concept/) digital control infrastructure.
 
 <details>
 <summary>See also</summary>
@@ -25,7 +25,7 @@ The [D16](https://rtb4dcc.de/hardware/decoder/d16/) decoder is a single sided mo
 <br>
 
 The decoder has the following features,
-- **NEM651** connector
+- **NEM-651** connector
 - **DCC**
   - DCC-A automatic logon
   - DCC-R protocol extension
@@ -57,7 +57,7 @@ The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0402 part
 - 6-layer PCB, FR4, 17 x 11 x 0.8mm (single sided)
 - CPU: AVR64DA32
 - Motor bridge: DRV8231
-- Connector: NEM 651
+- Connector: NEM-651
 
 ## Kicad
 [Schematic](doc/D16_schematic.pdf) | [Layout](doc/D16_layout.pdf) | [Gerber](gerber)
