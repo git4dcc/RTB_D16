@@ -42,7 +42,7 @@ The decoder has the following features,
 - adjustable max AUX current (default 500mA)
 - over temp protection
 - Function output: LV/LR (dimmable, 1.4kHz) open drain
-- Function output: AUX1/AUX2/AUX3 logic level (solder pads)
+- Function output: AUX1/AUX2/AUX3 logic level (3.3V)
 - optional external buffer capacitor (max. 1500uF)
 - <10mA idle power consumption
 - Firmware update over main tracks via DCC-R protocol
