@@ -8,8 +8,10 @@ The [D16](https://rtb4dcc.de/hardware/decoder/d16/) decoder is a single sided mo
 <details>
 <summary>See also</summary>
 
-- [RTB_D20](https://github.com/git4dcc/RTB_D20)
-- [RTB_D21](https://github.com/git4dcc/RTB_D21)
+- [RTB_D12 - custom](https://github.com/git4dcc/RTB_D12) (Flm V100)
+- [RTB_D20 - NEM651](https://github.com/git4dcc/RTB_D20)
+- [RTB_D21 - Next18](https://github.com/git4dcc/RTB_D21)
+- [RTB_D22 - Plux16](https://github.com/git4dcc/RTB_D22)
 
 </details>
 
