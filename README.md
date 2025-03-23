@@ -10,6 +10,7 @@ My Homebrew [D16](https://rtb4dcc.de/hardware/decoder/d16/) decoder is a single 
 
 - [RTB_D12 - custom](https://github.com/git4dcc/RTB_D12) (Fleischmann V100)
 - [RTB_D13 - custom](https://github.com/git4dcc/RTB_D13) (Minitrix coach)
+- [RTB_D15 - custom](https://github.com/git4dcc/RTB_D15) (Minitrix V160)
 - [RTB_D20 - NEM651](https://github.com/git4dcc/RTB_D20)
 - [RTB_D21 - Next18](https://github.com/git4dcc/RTB_D21)
 - [RTB_D22 - Plux16](https://github.com/git4dcc/RTB_D22)
