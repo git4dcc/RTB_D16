@@ -16,11 +16,19 @@ ver: 	firmware version
 	2xxx - beta
 	3xxx - quality
 
+Note:	R/P	can only be installed using UPDI.
+	U/F	can be updated via DCC-R
+	B/E	not for decoder install (only for reference)
+
 -----------------------------
 
-Note:
-	R/P	can only be installed using UPDI.
-	B/F/U/E	can either be installed remotely or using VT100 over the debug IF.
+File:	{pcb}{code}{ver}_defaults.txt
+
+	Dump of all decoder CVs after being set to factory defaults.
+
+File:	{pcb}{code}{ver}_qa.txt
+
+	Log of decoder test suite run.
 
 -----------------------------
 
@@ -28,3 +36,4 @@ Change log:
 
 	Feb/19/2024 - initial version
 	Feb/23/2024 - added 'E' eeprom description
+	Mar/23/2025 - added '_defaults.txt' and '_qa.txt'
